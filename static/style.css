@@ -1,3 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: orphesus;
+    src: url(../static/assets/font/Orpheus\ Pro.ttf);
+}
 body{
     background-color: #ffe9de;
+    font-family: orphesus;
+}
+img{
+    width: 100%;
+}
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav a{
+    color: white;
+}
+nav ul{
+    display: flex;
+}
+.main{
+    display: flex;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.brightomolayo{
+    color: #494d4c;
+}
+.qoute{
+    color:white;
+}
+.applause{
+    width: 30%;
 }

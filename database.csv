@@ -1,7 +1,11 @@
-name, subject,email, test, message
+name, subject,email, message
 officialbrightbalogun@gmail.com,Python,hello
 officialbrightbalogun@gmail.com,Python,hello
-Bright;Python;officialbrightbalogun@gmail.com;test;hello
+Bright;Python;officialbrightbalogun@gmail.com;test;hello
+
 Bright,Python,officialbrightbalogun@gmail.com,test,hello
 Bright,Python,officialbrightbalogun@gmail.com,test,hello
 Bright,Python,officialbrightbalogun@gmail.com,test,Right one
+Bright Balogun,hello,molayobright@gmail.com,beautiful,Keep going
+Bright Balogun,hello,molayobright@gmail.com,hello
+Bright Balogun,hello,molayobright@gmail.com,hello

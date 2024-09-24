@@ -1,4 +1,4 @@
-from flask import Flask,render_template, url_for, request, redirect
+from flask import Flask,render_template,  request, redirect
 import csv
 
 app = Flask(__name__)
@@ -28,10 +28,9 @@ def write_to_csv(data):
         message = data['message']
         subject = data['subject']
         email = data["email"]
-        test = data["test"]
 
         csv_writer = csv.writer( database2, delimiter= ',',   quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow([name,subject,email,test,message])
+        csv_writer.writerow([name,subject,email,message])
 
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
