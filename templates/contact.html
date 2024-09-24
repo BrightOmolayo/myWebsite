@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightOmolayo</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='hearrt.ico') }}">
+</head>
+<body>
+    <h1>My portfolio</h1>
+    <button>
+        <a href="./index.html">Home</a>
+    </button>
+    <form action="submit_form" method="post">
+        <label for="">Name</label><br>
+        <input type="text" name="name"><br>
+
+        <label for="">Subject</label><br>
+        <input type="text" name="subject"><br>
+
+        <label for="">email</label><br>
+        <input type="email" name="email"><br>
+
+        <label for="">test</label><br>
+        <input type="text" name="test"><br>
+
+        <label for="">message</label> <br>
+        <textarea name="message" id=""></textarea> <br>
+        
+        <!-- <label for="">Message</label><br>
+        <input type="text"   name="message"><br> -->
+
+        <button type="submit">submit</button>
+    </form>
+    <script src="static/script.js"></script>
+</body>
+</html>
