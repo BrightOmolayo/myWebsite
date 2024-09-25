@@ -24,13 +24,15 @@ def write_to_file(data):
 
 def write_to_csv(data):
     with open('database.csv', mode='a', newline='') as database2:
-        name = data['name']
-        message = data['message']
+        firstname = data['firstname']
+        lastname = data['lastname']
         subject = data['subject']
         email = data["email"]
+        test = data["test"]
+        message = data['message']
 
         csv_writer = csv.writer( database2, delimiter= ',',   quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow([name,subject,email,message])
+        csv_writer.writerow([firstname,lastname,subject,email,test,message])
 
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():

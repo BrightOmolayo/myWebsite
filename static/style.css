@@ -11,6 +11,7 @@ body{
 }
 img{
     width: 100%;
+    display: block;
 }
 nav{
     display: flex;
@@ -114,8 +115,101 @@ footer{
 }
 
 /* Projects page style*/
+
 .projects-html-body{
+    text-align: center;
+}
+.image-holder{
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    padding: 5%;
     background-color: black;
     color: white;
+}
+.projects-html-h1{
+    margin-bottom: 10px;
+    margin-top: 6%;
+}
+.projects-html-body footer{
     text-align: center;
+}
+.image-div{
+    border: 2px solid #ffe9de;
+}
+.projects-html-main{
+    padding-top: 1%;
+}
+
+/* about page style */
+.about-html-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px ;
+
+}
+.about-page-image{
+    width: 50%;
+}
+.about-me{
+    margin-top: 7%;
+    width: 45%;
+}
+.about-html-button{
+    background-color: black;
+    border-radius: 20px;
+    border: transparent;
+    padding: 3% 4%;
+    margin-bottom: 20px;
+    font-size: medium;
+    margin-left: 40%;
+}
+.about-html-button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* contact page */
+.contact-html-h1{
+    margin-bottom: 3%;
+}
+input{
+    padding: 10px; 
+    margin: 5px 5px 10px 10px;
+    border-radius: 10px;
+    border: transparent;
+    width: 55%;
+}
+.form-inputs1{
+    margin: 5px 5px 10px 35px;
+}
+.form-inputs2{
+    margin: 5px 5px 10px 45px;
+}
+.form-inputs3{
+    margin: 5px 5px 10px 25px;
+    width: 50%;
+}
+form{
+    font-size: larger;
+} 
+textarea{
+    width: 55%;
+    padding: 10px;
+    border: transparent;
+    margin: 5px 5px 10px 25px;
+} 
+.message{
+    position: relative;
+    bottom: 30px;
+}
+.submit-button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: transparent;
+    padding: 1% 2%;
+    font-size: medium;
+    margin: 2%;
+
 }

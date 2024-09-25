@@ -1,11 +1,4 @@
-name, subject,email, message
-officialbrightbalogun@gmail.com,Python,hello
-officialbrightbalogun@gmail.com,Python,hello
-Bright;Python;officialbrightbalogun@gmail.com;test;hello
-
-Bright,Python,officialbrightbalogun@gmail.com,test,hello
-Bright,Python,officialbrightbalogun@gmail.com,test,hello
-Bright,Python,officialbrightbalogun@gmail.com,test,Right one
-Bright Balogun,hello,molayobright@gmail.com,beautiful,Keep going
-Bright Balogun,hello,molayobright@gmail.com,hello
-Bright Balogun,hello,molayobright@gmail.com,hello
+firstname, lastname, subject,email, business name, message
+Bright,Balogun,hello,hello,molayobright@gmail.com,amazon
+Bright,Balogun,hello,python,molayobright@gmail.com,amazon
+Bright,Balogun,python,molayobright@gmail.com,amazon,hello
