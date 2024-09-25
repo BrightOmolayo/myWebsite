@@ -3,12 +3,11 @@
     margin: 0;
 }
 @font-face {
-    font-family: orphesus;
+    font-family: 'orphesus';
     src: url(../static/assets/font/Orpheus\ Pro.ttf);
 }
 body{
     background-color: #ffe9de;
-    font-family: orphesus;
 }
 img{
     width: 100%;
@@ -17,27 +16,106 @@ nav{
     display: flex;
     background-color: black;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px 50px ;
+    font-size:medium;
 }
 nav a{
     color: white;
+    text-decoration: none;
+}
+.links{
+    width: 34%;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.socials-links-icons{
+    width: 15%;
+    padding: 7px;
+}
+.socials-links-icons ul{
+    display: flex;
+    justify-content: space-between;
+}
+.brightomolayo1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:' orphesus'\;
 }
 nav ul{
     display: flex;
 }
+nav li{
+    list-style: none;
+}
 .main{
     display: flex;
+}
+main{
+    padding:50px;
+    margin-top: 30px;
 }
 footer{
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 3%;
 }
 .brightomolayo{
     color: #494d4c;
+    font-family:' orphesus';
+    font-size: 150px;
 }
 .qoute{
     color:white;
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
 }
 .applause{
-    width: 30%;
+    width: 25%;
+    margin-left: 3%;
+}
+.icon{
+    border: 2px solid white;
+    padding: 2px;
+}
+.hello-there{
+    margin-bottom: 30px;
+    font-family: 'orphesus';
+}
+.intro{
+    margin-bottom: 30px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.place-holder{
+    width: 20%;
+}
+.main1 a{
+    color: white;
+    text-decoration: none;
+}
+.main1 button{
+    background-color: black;
+    border-radius: 20px;
+    border: transparent;
+    padding: 3% 4%;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+.projects,
+.about{
+    margin-top: 11px;
+}
+
+/* Projects page style*/
+.projects-html-body{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
