@@ -42,7 +42,7 @@ nav a{
 .brightomolayo1{
     font-size: 30px;
     font-weight: 600;
-    font-family:' orphesus'\;
+    font-family:' orphesus';
 }
 nav ul{
     display: flex;
@@ -79,8 +79,10 @@ footer{
     margin-left: 3%;
 }
 .icon{
-    border: 2px solid white;
-    padding: 2px;
+    border: 1px solid #fafaff;
+    padding: 5px 6px;
+    border-radius: 2px;
+    font-size: smaller;
 }
 .hello-there{
     margin-bottom: 30px;
@@ -174,35 +176,35 @@ footer{
     margin-bottom: 3%;
 }
 input{
-    padding: 10px; 
-    margin: 5px 5px 10px 10px;
-    border-radius: 10px;
+    padding: 20px; 
+    margin: 5px 5px 20px 0px;
     border: transparent;
-    width: 55%;
+    width: 40%;
+    background-color: #fafafa;
 }
 .form-inputs1{
-    margin: 5px 5px 10px 35px;
+    margin: 5px 5px 10px 0px;
 }
 .form-inputs2{
-    margin: 5px 5px 10px 45px;
+    margin: 5px 5px 10px 0px;
 }
 .form-inputs3{
-    margin: 5px 5px 10px 25px;
-    width: 50%;
+    margin: 5px 5px 10px 0px;
 }
 form{
     font-size: larger;
 } 
 textarea{
-    width: 55%;
+    width: 42%;
     padding: 10px;
     border: transparent;
-    margin: 5px 5px 10px 25px;
+    margin: 5px 5px 10px 0px;
+    background-color: #fafafa;
 } 
-.message{
+/* .message{
     position: relative;
     bottom: 30px;
-}
+} */
 .submit-button{
     background-color: black;
     color: white;
@@ -212,4 +214,22 @@ textarea{
     font-size: medium;
     margin: 2%;
 
+}
+label{
+    font-size: medium;
+}
+/* Thank you page styles */
+.thank-you-html-main{
+    text-align: center;
+    margin-top: 5%;
+    padding: 13%;
+    margin-bottom: 5%;
+}
+footer a{
+    background-color: white;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 1%;
+    border-radius: 5px;
 }
