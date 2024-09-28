@@ -271,7 +271,10 @@ footer br{
         background-color: white;
         height: 0.9px;
         margin: 15% 10%;
+        transition: transform 0.3s;
     }
+    .line1
+    .line2
     .h{
         color: white;
         border: 2px solid gray;
@@ -340,16 +343,21 @@ footer br{
         font-size: 60px;
         margin: 3% 0%;
     }
-    .galadriel{
-        display: none;
-    }
     .qoute{
         color:white;
-        display: flex;
+        display: block;
         justify-content: space-between;
         margin: 4% 3%;
         padding-top: 3%;
         line-height: 24px;
+    }
+    .galadriel{
+        margin-top: 20px;
+    }
+    .fa-envelope{
+        color: white;
+        width: 5%;
+        margin-right: 6px;
     }
     .applause{
         width: 35%;
