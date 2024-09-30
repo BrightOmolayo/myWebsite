@@ -145,6 +145,7 @@ footer{
 .image-placeholder{
     width: 32%;
 }
+
 .projects-html-main h2{
     margin: 20px 10px 10px 10px;
     font-size: larger;
@@ -263,25 +264,40 @@ footer br{
         width: 100%;
     }
     .dropdown-button{
-        border: 2px solid red;
         width: 20%;
         margin-left: 50%;
+        gap: 0px 4px;
     }
     .dropdown-divs{
         background-color: white;
         height: 0.9px;
-        margin: 15% 10%;
+        margin: 10px 4px;
         transition: transform 0.3s;
     }
-    .line1
-    .line2
-    .h{
-        color: white;
-        border: 2px solid gray;
+    
+    #mobile-hidden-nav-links1{
+        padding: 15% 2% 21% 2%;
+        text-align: center;
     }
-    .mobile-nav-links1{
+    .mobile-nav-links1 ul{
         display: block;
         color: white;
+        margin-top: 70px;
+        text-align: center;
+        margin: 60px 5px;
+        font-size: 25px;
+        margin-bottom: 150px;
+    }
+    .mobile-socials-links ul{
+        justify-content: center;
+        gap: 2%;
+        margin-top: 10%;
+        margin-bottom: 40px;
+    }
+    .mobile-socials-links a{
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 4%px;
     }
     nav{
         display: block;
@@ -419,7 +435,7 @@ footer br{
         text-align: center;
     }
     .image-holder{
-        display: flex;
+        display: block;
         gap: 4%;
         justify-content: center;
         padding: 5%;
@@ -440,7 +456,7 @@ footer br{
         padding-top: 1%;
     }
     .image-placeholder{
-        width: 32%;
+        width: 99%;
     }
     .projects-html-main h2{
         margin: 20px 10px 10px 10px;
@@ -457,17 +473,17 @@ footer br{
     
     /* about page style */
     .about-html-main{
-        display: flex;
+        display: block;
         justify-content: space-between;
         padding: 50px ;
     
     }
     .about-page-image{
-        width: 50%;
+        width: 99%;
     }
     .about-me{
         margin-top: 7%;
-        width: 45%;
+        width: 97%;
     }
     .about-html-button{
         background-color: black;
