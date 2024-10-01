@@ -40,7 +40,7 @@
             <div class="mobile-hidden-nav-links1" style="display: none;" id="mobile-hidden-nav-links1">
                 <div class="mobile-nav-links1">
                     <ul>
-                        <li class=""><a href="projects.html" class="navprojectslink">Projects</a></li>
+                        <li class="mobile-project-link"><a href="projects.html" class="navprojectslink">Projects</a></li>
                         <li class=""><a href="about.html" class="navaboutlink">About</a></li>
                     </ul>
                 </div>
@@ -59,22 +59,22 @@
         <h1 class="contact-html-h1">Contact Me</h1>
         <form action="submit_form" method="post">
             <label for="First Name">First Name:</label> <br>
-            <input type="text" name="firstname" placeholder="Johnson" class="names"> <br>
+            <input type="text" name="firstname" placeholder="Johnson" class="names" required> <br>
 
             <label for="Last Name">Last Name:</label> <br>
-            <input type="text" name="lastname" placeholder="Smith" class="names"><br>
+            <input type="text" name="lastname" placeholder="Smith" class="names" required><br>
     
             <label for="Subject">Subject:</label><br>
-            <input type="text" name="subject" placeholder="Enquiry" class="form-inputs1"><br>
+            <input type="text" name="subject" placeholder="Enquiry" class="form-inputs1" required><br>
     
             <label for="Email">Email:</label><br>
-            <input type="email" name="email" placeholder="myName@name.com" class="form-inputs2"><br>
+            <input type="email" name="email" placeholder="myName@name.com" class="form-inputs2" required><br>
     
             <label for="Business Name">Business Name:</label><br>
-            <input type="text" name="test" placeholder="JohnsonCo" class="form-inputs3"><br>
+            <input type="text" name="test" placeholder="JohnsonCo" class="form-inputs3" required><br>
     
             <label for="" class="message">Additional comments?:</label> <br>
-            <textarea name="message" id=""></textarea class="form-inputs"><br>
+            <textarea name="message" id="" required></textarea class="form-inputs"><br>
     
             <button type="submit" class="submit-button">submit</button>
         </form>

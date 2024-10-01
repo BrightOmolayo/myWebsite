@@ -306,6 +306,9 @@ footer br{
         padding: 25px 20px ;
         font-size:medium;
     }
+    .mobile-project-link{
+        margin-bottom: 20px;
+    }
     nav a{
         color: white;
         text-decoration: none;
@@ -501,13 +504,14 @@ footer br{
     
     /* contact page */
     .contact-html-h1{
-        margin-bottom: 3%;
+        margin-bottom: 40px;
+        margin-left: 7%;
     }
     input{
         padding: 20px; 
         margin: 5px 5px 20px 0px;
         border: transparent;
-        width: 40%;
+        width: 70%;
         background-color: #fafafa;
     }
     .form-inputs1{
@@ -538,8 +542,8 @@ footer br{
         color: white;
         border-radius: 20px;
         border: transparent;
-        padding: 1% 2%;
-        font-size: medium;
+        padding: 2% 5%;
+        font-size: small;
         margin: 2%;
     
     }
@@ -550,7 +554,7 @@ footer br{
     .thank-you-html-main{
         text-align: center;
         margin-top: 5%;
-        padding: 13%;
+        padding: 150px 40px 170px 40px;
         margin-bottom: 5%;
     }
     footer a{
