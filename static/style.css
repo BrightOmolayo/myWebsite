@@ -350,6 +350,15 @@ footer br{
         padding:20px;
         margin-top: 30px;
     }
+    .main1 button{
+        background-color: transparent;
+        color: black;
+        border-radius: 20px;
+        border: 0.5px solid black;
+        padding: 5%;
+        margin-bottom: 40px;
+        font-size: small;
+    }
     footer{
         background-color: black;
         color: white;
@@ -415,16 +424,8 @@ footer br{
         width: 20%;
     }
     .main1 a{
-        color: white;
+        color: black;
         text-decoration: none;
-    }
-    .main1 button{
-        background-color: black;
-        border-radius: 20px;
-        border: transparent;
-        padding: 5%;
-        margin-bottom: 40px;
-        font-size: small;
     }
     .projects,
     .about{
@@ -568,4 +569,18 @@ footer br{
     footer br{
         display: block;
     }
+
+    /* see more page */
+    .seeMore-Main a{
+        color: black;
+        text-decoration: none;
+    }
+    .seeMore-Main li{
+        list-style: none;
+        margin-bottom: 2px;
+    }
+    .seeMore-Main{
+        text-align: left;
+    }
+
 }
