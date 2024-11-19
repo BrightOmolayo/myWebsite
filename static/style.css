@@ -121,6 +121,14 @@ footer{
 .projects-html-body{
     text-align: center;
 }
+.projects-html-body li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.projects-html-body a{
+    text-decoration: none;
+    color: black;
+}
 .image-holder{
     display: flex;
     gap: 4%;
