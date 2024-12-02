@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+@font-face {
+    font-family: "Orpheus";
+    src: url("../static/assets/font/Orpheus\ Pro.ttf");
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Orpheus";
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 0% 3.5%;
+    margin-top: 30px;
+}
+.hamburger-Menu{
+    display: none;
+}
+.nav-links{
+    width: 27%;
+}
+.logo{
+    font-size: 35px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+.intro-h1{
+    margin: 10% 0% 3.8% 17%;
+    line-height: 50px;
+    font-size: 33px;
+    padding-top: 1%;
+    letter-spacing: 1.7px;
+}
+.intro-paragraph{
+    margin-left:17%;
+    letter-spacing: 0.4px;
+    margin-bottom: 14%;
+}
+.intro-paragraph span a{
+    margin-left: 3px;
+    font-size: 18px;
+    color: aliceblue;
+}
+header{
+    padding-top: 1.2%;
+}
+/* main */
+.main-section1-div-container{
+    display: flex;
+    justify-content: center;
+}
+.main-section1-div-image{
+    width: 40%;
+}
+.main-section1-div-paragraph{
+    width: 20%;
+}
