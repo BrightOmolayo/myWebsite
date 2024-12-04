@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-function toggle () {
+function toggle() {
   const hiddenDiv = document.getElementById('mobile-hidden-nav-links1')
   const line1 = document.getElementById('line1')
   const line2 = document.getElementById('line2')

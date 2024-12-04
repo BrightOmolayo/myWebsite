@@ -218,3 +218,261 @@ textarea{
 label{
     font-size: medium;
 }
+@media screen  and (max-width: 480px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    img,
+    video{
+        width: 100%;
+    }
+    @font-face {
+        font-family: "Orpheus";
+        src: url("../static/assets/font/Orpheus\ Pro.ttf");
+    }
+    body{
+        background-color: black;
+        color: rgb(231, 229, 229);
+        font-family: "Orpheus";
+    }
+    nav{
+        display: flex;
+        justify-content:space-between;
+        padding: 5.5% 3.5% 2.5% 7.6%;
+        position:fixed;
+        top: 0;
+        width: 87.7%;
+        background-color: black;
+    }
+    .hamburger-Menu{
+        display: block;
+        border:2px solid red;
+        width: 10%;
+        position: relative;
+        top: 6px;
+    }
+    .hamburger{
+        background-color: white;
+    }
+    .hamburger2{
+        position: relative;
+        top: 10px;
+        height: 1px;
+    }
+    .hamburger1{
+        position: relative;
+        top: 1px;
+        height: 1px;
+    }
+    .nav-links{
+        width: 27%;
+        display: none;
+    }
+    .logo{
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    ul li{
+        list-style: none;
+    }
+    ul a{
+        color: rgb(240, 238, 238);
+        text-decoration: none;
+    }
+    .intro-h1{
+        margin: 34% 0% 3.8% 10%;
+        line-height: 30px;
+        font-size: 15px;
+        padding-top: 1%;
+        letter-spacing: 0.6px;
+        width: 85%;
+    }
+    .intro-h1 br{
+        display: none;
+    }
+    .logo a{
+        color: white;
+        text-decoration: none;
+    }
+    .intro-paragraph{
+        margin-left:10%;
+        letter-spacing: 0.4px;
+        margin-bottom: 14%;
+        font-size: small;
+        margin-top: 30px;
+        width: 84%;
+    }
+    .intro-paragraph span a{
+        margin-left: 3px;
+        font-size: 13px;
+        color: aliceblue;
+        line-height: 20px;
+    }
+    header{
+        margin-top: 0%;
+    }
+    /* main */
+    .main-section1{
+        display: block;
+        justify-content: center;
+    }
+    .main-section1-div-container{
+        display: block;
+        width: 98%;
+        padding-left: 2%;
+        margin-left: 5%;
+    }
+    .main-section1-div-image{
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 3%;
+        margin-top: 8%;
+    }
+    .main-section1-div-paragraph{
+        width: 45%;
+        margin-left: 35%;
+        font-size: 14px;
+        letter-spacing: 0.6px;
+        line-height: 18px;
+        padding-top: 10px;
+        display: none;
+    }
+    .about-section{
+        text-align: none;
+        padding-left: 3%;
+        margin-left:5%;
+        word-spacing: 4px;
+        letter-spacing: 0.7px;
+        line-height: 30px;
+        font-size: 11px;
+        color: rgb(233, 230, 230);
+    }
+    .about-section h2{
+        width: 93%;
+        margin-bottom: 170px;
+    }
+    .sneakpeak{
+        text-align: center;  
+    }
+    .sneakpeak h1{
+        font-size: 21px; 
+        line-height: 30px;
+    } 
+    .video-container{
+        display: block;
+    }
+    .video-container-div{
+        margin-top: 180px;
+        padding-left: 12%;
+    }
+    .video3{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    video{
+       border: 7px solid #ffe9de; 
+    }
+    .video1,
+    .video2{
+        width: 88%;
+    }
+    .videoo-captions{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .videoo-captions h2{
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        font-size: large;
+    }
+    .videoo-captions p{
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        font-size: small;
+    }
+    .videoo1-captions{
+
+        margin-bottom: 30px;
+    }
+    footer{
+        margin: 10%;
+        text-align: center;
+    }
+    
+    /* my stack */
+    /* .myStack-div{
+        text-align:left;
+    } */
+    .myStack-h1{
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .myStack-main{
+        margin-top: 120px;
+        margin-left: 24%;
+    }
+    .myStack-main h3{
+        color: #b6b69f; 
+    }
+    .myStack-ul li{
+        list-style:disc;
+        margin: 9px 9px 9px 50px ;
+    }
+    
+    /* contact page */
+    .contact-html-page{
+        margin-top: 180px;
+        margin-left: 20%;
+        margin-bottom: 80px;
+    }
+    .contact-html-h1{
+        margin-bottom: 2%;
+    }
+    input{
+        padding: 20px; 
+        margin: 5px 5px 20px 0px;
+        border: transparent;
+        width: 40%;
+        background-color: #d3cece;
+    }
+    .form-inputs1{
+        margin: 5px 5px 10px 0px;
+    }
+    .form-inputs2{
+        margin: 5px 5px 10px 0px;
+    }
+    .form-inputs3{
+        margin: 5px 5px 10px 0px;
+    }
+    form{
+        font-size: larger;
+    } 
+    textarea{
+        width: 37%;
+        padding: 40px;
+        border: transparent;
+        margin: 5px 5px 10px 0px;
+        background-color: #d3cece;
+    } 
+    .submit-button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border: 1px thin grey;
+        padding: 1% 2%;
+        font-size: medium;
+        margin: 3%;
+    
+    }
+    label{
+        font-size: medium;
+    }
+}
