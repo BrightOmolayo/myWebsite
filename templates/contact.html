@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightOmolayo</title>
+    <!-- <title>BrightOmolayo</title>
     <link rel="stylesheet" href="../static/style.css">
     <link rel="shortcut icon" href="../static/assets/images/hearrt.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/25008b46a7.js" crossorigin="anonymous"></script> -->
+    <title>Bright Omolayo</title>
+    <link rel="stylesheet" href="../static/restyled.css">
+    <link rel="shortcut icon" href="../static/assets/images/brightomolayo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/25008b46a7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
+        <!-- <nav>
             <div class="links">
                 <ul>
                     <li><a href="index.html" class="brightomolayo1">Brightomolayo's</a></li>
@@ -53,30 +57,49 @@
                     </ul>
                 </div>
             </div>
+        </nav> -->
+        <nav>
+            <div >
+                <h1 class="logo"><a href="../templates/index.html">Bright Omolayo</a></h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../templates/mystack.html">Tech Stack</a></li>
+                    <li><a href="../templates/contact.html">Contact</a></li>
+                    <li><a href="https://www.instagram.com/___e_o_w_y_n___/profilecard/?igsh=YW94Ynh2ZjAxZTJy"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="hamburger-Menu">
+                <div>
+                    <div>hamburger</div>
+                    <div>hamburger</div>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="contact-html-page">
-        <h1 class="contact-html-h1">Contact Me</h1>
+        <h1 class="contact-html-h1">Get in touch</h1>
+        <h4>Officialbrightalogun@gmail.com</h4> <br><br>
         <form action="submit_form" method="post">
-            <label for="First Name">First Name:</label> <br>
+            <label for="First Name">First Name (required)</label> <br>
             <input type="text" name="firstname" placeholder="Johnson" class="names" required> <br>
 
-            <label for="Last Name">Last Name:</label> <br>
+            <label for="Last Name">Last Name (required)</label> <br>
             <input type="text" name="lastname" placeholder="Smith" class="names" required><br>
     
-            <label for="Subject">Subject:</label><br>
+            <label for="Subject">Subject (required)</label><br>
             <input type="text" name="subject" placeholder="Enquiry" class="form-inputs1" required><br>
     
-            <label for="Email">Email:</label><br>
+            <label for="Email">Email (required)</label><br>
             <input type="email" name="email" placeholder="myName@name.com" class="form-inputs2" required><br>
     
-            <label for="Business Name">Business Name:</label><br>
+            <label for="Business Name">Business Name (required)</label><br>
             <input type="text" name="test" placeholder="JohnsonCo" class="form-inputs3" required><br>
     
             <label for="" class="message">Additional comments?:</label> <br>
             <textarea name="message" id="" required></textarea class="form-inputs"><br>
     
-            <button type="submit" class="submit-button">submit</button>
+            <button type="submit" class="submit-button">Submit</button>
         </form>
     </main>
     <script src="static/script.js"></script>
